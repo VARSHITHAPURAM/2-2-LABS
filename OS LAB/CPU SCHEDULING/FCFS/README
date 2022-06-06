@@ -1,1 +1,21 @@
+                                         FCFS [FIRST COME FIRST SERVE]
 
+
+1. First-come, First served is the simplest scheduling algorithm.
+2. Ready queue is a FIFO queue.
+3. Longest waiting process at the front of queue.
+4. New ready processes join the rear.
+5. Non-preemptive: executes until voluntarily gives up CPU finished or waits for some event.
+6. Convoy Effect Problem: CPU bound process may execute a long CPU burst processes, so the
+   processes with very short CPU bursts, wait in queue Reduces CPU and I/O device utilization.
+   
+   
+IMPLEMENTATION :
+
+1.Input the processes along with their burst time.
+2.Find waiting time for all processes.
+3.As first process that comes need not to wait,so wt[0]=0.
+4.Find wt for all remaining processes i.e., wt[i] = bt[i-1] + wt[i-1].
+5.Find tat = wt + bt for all processes.
+6.Find average wt = total_wt / number of processes.
+7.Find average tat = total_tat / number of processes.
