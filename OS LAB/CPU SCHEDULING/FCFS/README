@@ -6,8 +6,7 @@
 3. Longest waiting process at the front of queue.
 4. New ready processes join the rear.
 5. Non-preemptive: executes until voluntarily gives up CPU finished or waits for some event.
-6. Convoy Effect Problem: CPU bound process may execute a long CPU burst processes, so the
-   processes with very short CPU bursts, wait in queue Reduces CPU and I/O device utilization.
+6. Convoy Effect Problem: CPU bound process may execute a long CPU burst processes, so the processes with very short CPU bursts, wait in queue Reduces CPU and I/O device utilization.
    
    
 IMPLEMENTATION :
