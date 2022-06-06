@@ -1,1 +1,7 @@
+         CPU SCHEDULING
 
+1.It is a special system software which handles processes scheduling in various ways.
+2.Their main task is to select the process which are ready to execute.
+3.It provides less control over degree of multiprogramming.
+4.These are minimal in time sharing systems.
+5.CPU Schedulers are faster than Job Scheduler and Process Swapping Scheduler.
